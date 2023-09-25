@@ -8,7 +8,7 @@ public class Level1Day3Q1 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the value of n: ");
+        System.out.print("Enter the size of n: ");
         int n = sc.nextInt();
 
         for (int num = 2; num < n; num++) {
