@@ -1,4 +1,4 @@
-//Java program to find all the prime numbers from 1 to N.
+//Java program to find all the prime numbers from 1 to n.
 
 import java.util.Scanner;
 
