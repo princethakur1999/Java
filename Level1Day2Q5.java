@@ -5,6 +5,7 @@ import java.util.*;
 public class Level1Day2Q5 {
 
     public static int calculateGCD(int a, int b) {
+
         if (b == 0) {
             return a;
         }
