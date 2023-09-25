@@ -7,19 +7,21 @@ public class Level1Day2Q5 {
     public static int calculateGCD(int a, int b) {
 
         if (b == 0) {
+
             return a;
         }
         return calculateGCD(b, a % b);
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the first number: ");
-        int num1 = scanner.nextInt();
+        int num1 = sc.nextInt();
 
         System.out.print("Enter the second number: ");
-        int num2 = scanner.nextInt();
+        int num2 = sc.nextInt();
 
         // Calculate the GCD
         int gcd = calculateGCD(num1, num2);
